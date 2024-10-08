@@ -487,8 +487,11 @@ var Nla=function(a,b,c,d){this.D=a;this.oF=b;this.B=c;this.C=d};_.t(Nla,_.Bf);
 var Ola=function(){};_.t(Ola,_.Bf);
 var yo=function(){_.Tl.call(this);this.C=!1;this.B={}};_.t(yo,_.Tl);var zo=function(a,b){if(a.C)throw _.Wf("Rules may only be added before the manager is started.").B;var c=new Ola;for(var d=0;d<b.length;d++){var e=b[d],f=a.B[e];f||(f=[],_.ml(a.B,e,f));f.push(c)}return a};yo.prototype.start=function(){this.C=!0};yo.prototype.ja=function(){_.Tl.prototype.ja.call(this);pl(this.B)};
 var Ao=function(a){this.B=a};Ao.prototype.toString=function(){return this.B};_.Bo=function(a){return new Ao(a)};
-var Co=_.Bo("xO31ue"),Pla=_.Bo("aiCLEf"),Qla=_.Bo("gsiSmd"),Rla=_.Bo("SK99f"),Sla=_.Bo("XxLlob");<p>1. Georeferencing</p>
-<img src="4ed082da2e494fb9d3fae986f69929b1.jpg" alt="Georeferencing Image" />;
+var Co=_.Bo("xO31ue"),Pla=_.Bo("aiCLEf"),Qla=_.Bo("gsiSmd"),Rla=_.Bo("SK99f"),Sla=_.Bo("XxLlob");
+ 
+ <p>1. Georeferencing</p>
+<img src="4ed082da2e494fb9d3fae986f69929b1.jpg" alt="Georeferencing Image" />
+
 _.Do=function(a,b,c){this.qu=a;this.Kt=b||null;this.EJ=c||[]};_.Do.prototype.toString=function(){return this.qu};_.Do.prototype.bs=function(){return this.EJ};
 _.Eo=function(a,b,c,d){this.type=a.type;this.event=a;this.C=b;this.B=c;this.data=a.data;this.source=d};
 var Tla=function(a){var b={},c={},d=[],e=[],f=function(n){if(!c[n]){var p=n instanceof _.Do?n.bs():[];c[n]=_.Cc(p);(0,_.nc)(p,function(u){b[u]=b[u]||[];b[u].push(n)});p.length||d.push(n);(0,_.nc)(p,f)}};for((0,_.nc)(a,f);d.length;){var h=d.shift();e.push(h);b[h]&&(0,_.nc)(b[h],function(n){_.ma(c[n],h);c[n].length||d.push(n)})}var k={},l=[];(0,_.nc)(e,function(n){n instanceof _.Do&&(n=n.Kt,null==n||k[n]||(k[n]=!0,l.push(n)))});return{services:e,hT:l}};
